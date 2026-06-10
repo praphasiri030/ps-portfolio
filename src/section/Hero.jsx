@@ -32,16 +32,14 @@ export default function Hero() {
               real-world experience.
             </p>
             <div className="flex md:justify-end p-2">
-              <button
-                onClick={() => {
-                  document
-                    .getElementById("contact")
-                    ?.scrollIntoView({ behavior: "smooth" });
-                }}
-                className="w-full md:w-fit bg-secondary text-custom-bg font-bold uppercase text-xs px-6 py-3 cursor-pointer hover:bg-secondary/90 transition-colors active:scale-95"
+              <a
+                href="/Resume-Praphasiri-Sukraksa.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full md:w-fit bg-secondary text-custom-bg font-bold uppercase text-xs px-6 py-3 cursor-pointer hover:bg-secondary/90 transition-colors active:scale-95 text-center inline-block"
               >
-                CONTACT ME
-              </button>
+                VIEW RESUME
+              </a>
             </div>
           </div>
         </div>
