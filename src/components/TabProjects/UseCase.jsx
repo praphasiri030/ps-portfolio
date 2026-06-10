@@ -44,14 +44,14 @@ export default function UseCase() {
         id: "booking",
         flowType: "Booking System",
         description:
-          "Illustrates the main user journey from room selection, reservation, and payment slip upload. It checks data integrity and ensures dynamic inventory updates to prevent double-booking.",
+          "Illustrates the room reservation flow, including availability checks, room selection, payment processing, and booking confirmation between the user and the system.",
         image: activity1,
       },
       {
-        id: "payment",
+        id: "cancel",
         flowType: "Booking Management and Cancellation",
         description:
-          "Deep dive into the automated 1-hour deposit slip verification. If Member fails to upload within 1 hour, system automatically cancels reservation and releases room inventory.",
+          "Illustrates how members view their booking details and request a cancellation by providing a reason, which triggers the system to update the booking status to 'Pending Refund'.",
         image: activity2,
       },
     ],

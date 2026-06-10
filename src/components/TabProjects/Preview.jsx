@@ -31,9 +31,9 @@ export default function Preview() {
               <FiArrowUpRight className="w-8 h-8 text-accent/60 group-hover:text-primary group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
             </a>
             <p className="text-sm md:text-base text-accent leading-relaxed mt-2 min-h-[120px] transition-all duration-300">
-              Comprehensive UI/UX design for the Cat Hotel web application,
-              crafted with a focus on seamless user booking flows, intuitive pet
-              profiling, and a clean modern aesthetic for pet owners.
+              Browse the Figma prototype to explore the project's user
+              interface, user flows, and design concepts created for the Cat
+              Hotel Reservation Management System.
             </p>
           </div>
         </div>
@@ -53,9 +53,9 @@ export default function Preview() {
               <FiArrowUpRight className="w-8 h-8 text-white/60 group-hover:text-primary group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
             </a>
             <p className="text-sm md:text-base text-accent/70 leading-relaxed mt-2 min-h-[120px] transition-all duration-300">
-              The complete frontend and backend repository for the Cat Hotel
-              platform. Built with clean, scalable code architecture, structured
-              database logic, and secure state management.
+              Browse the GitHub repository to explore parts of the source code,
+              project structure, and technologies used in developing the Cat
+              Hotel Reservation Management System.
             </p>
           </div>
 

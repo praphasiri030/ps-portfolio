@@ -68,8 +68,7 @@ export default function Overview() {
       <div>
         <p className="text-sm md:text-base text-accent leading-relaxed">
           <strong className="text-accent font-semibold">Tech Stack:</strong>{" "}
-          Developed a web application using PHP, MySQL, HTML, CSS, and
-          JavaScript to support booking management and stay status tracking.
+          PHP, SQL, HTML, CSS, JavaScript, MySQL and Figma
         </p>
       </div>
     </div>
